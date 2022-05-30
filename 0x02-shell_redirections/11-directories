@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | grep -c ^d
+ls -al ./ ./test_dir ./test_dir/photos ./test_dir/rep.gif | grep -c ^d
